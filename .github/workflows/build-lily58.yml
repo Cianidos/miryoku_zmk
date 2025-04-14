@@ -11,4 +11,4 @@ jobs:
       board: '["nice_nano_v2"]'
       shield: '["lily58_left","lily58_right"]'
       custom_config: '["#define MIRYOKU_KLUDGE_MOUSEKEYSPR"]'
-      kconfig: '["CONFIG_ZMK_DISPLAY=y","CONFIG_ZMK_MOUSE=y", "CONFIG_ZMK_WIDGET_BATTERY_STATUS_SHOW_PERCENTAGE=y", "CONFIG_BT_CTLR_TX_PWR_PLUS_8=y"]'
+      kconfig: '["CONFIG_ZMK_MOUSE=y\nCONFIG_ZMK_DISPLAY=y\nCONFIG_ZMK_MOUSE=y\nCONFIG_ZMK_WIDGET_BATTERY_STATUS_SHOW_PERCENTAGE=y\nCONFIG_BT_CTLR_TX_PWR_PLUS_8=y"]'
